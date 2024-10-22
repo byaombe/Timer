@@ -3,29 +3,37 @@ body {
     color: whitesmoke;
     display: flex;
     justify-content: center;
-    align-content: center;
     align-items: center;
 }
 #div1 {
     background-color: bl;
     display: flex;
+    flex-direction: column;
     height: 500px;
-    width: 700px;
+    width: 600px;
 margin-top: 65px;
-border: 3px dashed gray;
+border: 3px dashed rgb(157, 146, 146);
+
 border-radius: 9px;
+justify-content: center;
+    align-items: center;
+
+}
+button {
+    background-color: aliceblue;
+    
 }
 #time {
+    gap: 60px;
 }
 #time, #time-containers {
     display: flex;
-    gap: 12px;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
+    
 }
 #time-containers {
-margin-top: 100px;
+    gap: 10px;
+display: flex;
+
 }
 #hour {
     display: flex;
@@ -33,6 +41,8 @@ margin-top: 100px;
     width: 100px;
     border: 3px dashed gray;
     border-radius: 9px;
+    justify-content: center;
+    align-items: center;
 
 }
 #minute {
@@ -41,6 +51,8 @@ margin-top: 100px;
     width: 100px;
     border: 3px dashed gray;
     border-radius: 9px;
+    justify-content: center;
+    align-items: center;
 
 }
 #seconds {
@@ -49,5 +61,9 @@ margin-top: 100px;
     width: 100px;
     border: 3px dashed gray;
     border-radius: 9px;
+    justify-content: center;
+    align-items: center;
 
 }
+
+
